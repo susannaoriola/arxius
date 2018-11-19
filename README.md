@@ -2,8 +2,7 @@
 Recursos Interactius Aplicats
 Gràfica publicitària 2_ EASDAlcoi
 
-<p>Com fer una pàgina web des d'un repositori en github. </p>
-<p>https://medium.com/@vovakuzmenkov/get-a-website-with-github-pages-9151ed636446</p>
+<p><a href="https://medium.com/@vovakuzmenkov/get-a-website-with-github-pages-9151ed636446">Com fer una pàgina web des d'un repositori en github.</a> </p>
 
 <h2>Recursos</h2>
 <ul>
