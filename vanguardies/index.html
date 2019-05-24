@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>VAngardes</title>
+	<link rel="stylesheet" type="text/css" href="css/style_grid.css">
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+		html, body{
+			width: 100%;
+			height: 100%;
+		}
+		main{
+			width: 550px;
+		}
+		.cuadrado {
+  width:25%;
+  height:0;
+  padding-top:25%;
+  position:alignment-baseline: ;
+  background:red;
+}
+		section{
+			height: 50px;
+			padding: 10px 10px 0 0; 
+		}
+		header{
+			z-index: 3;
+			position: relative;
+			text-align: center;
+		}
+		h1{
+			font-family:'times', serif;
+			font-size:35px;
+			color: black;
+			background-image: red: (red 50%,red 80%);
+		}
+		.rojo{
+			background: red;
+			transform: (15deg);
+			animation: agrandar 1s infinite;
+		}
+		.azul{
+			background: blue;
+			animation: direction 3s ease-out-in infinite;
+			animation-direction: normal;
+		}
+		.azul{
+			background: blue;
+			animation: direction 3s ease-in-out infinite;
+			animation-direction: normal;
+		}
+		.azul1{
+			background: blue;
+			transform: rotate(45deg);
+			animation: agrandar 2s infinite;
+			}
+		.rojo{
+			background: red;
+			scale(0, 50);
+			animation: agrandar 2s infinite;
+		}
+
+		}
+		.blanco{
+			background: white;
+		}
+		.blanco1{
+			background: white;
+			animation: direction 10s ease-in-out infinite;
+			animation-direction: normal;
+		}
+		.fila2, .fila3, .fila8, .fila10, .fila11{
+            border-bottom: black 10px solid;
+		}
+		.fila1, .fila2, .fila3, .fila4, .fila5, .fila6, .fila7, .fila8, .fila9, .fila101, .fila10, .fila11, .fila111, .fila12{
+			border-left: black 150px solid;
+		}
+		.rojo:hover{
+			animation-play-state: paused;
+		}
+		@keyframes girar{
+			from{transform: rotate(60deg);
+				}
+			to{transform: rotate(250deg);
+				}
+			}
+			@keyframes direction {
+       0% {transform:translateX(0);}
+       100% {transform:translateX(300px);}
+      }
+      @keyframes agrandar{
+			from{transform: rotate(45deg);
+			transform: scale(1, 1);}
+			to{transform: rotate(270deg);
+			transform: scale(1, 10);}
+			}
+		@media screen and (max-width: 480px){
+		body{
+			background: blue;
+		}
+		header, main{
+			width: 100%;
+			margin: 8px 0 0 0;
+		}
+	</style>
+</head>
+<body>
+<header>
+	<h1>Vanguardes Modriani</h1>
+</header>
+<main>
+	
+	
+	
+	<!--fila4-->
+	<section class="col-2 blanco fila4"></section>
+	<section class="col-8 blanco fila4"></section>
+	<section class="col-1 blanco fila4"></section>
+	<section class="col-1 blanco fila4"></section>
+	<div class="row"></div>
+	<!--fila5-->
+	<section class="col-2 blanco fila5"></section>
+	<section class="col-8 blanco fila5"></section>
+	<section class="col-1 azul1 fila5"></section>
+	<section class="col-1 azul1 fila5"></section>
+	<div class="row"></div>
+	<!--fila6-->
+	<section class="col-2 blanco fila6"></section>
+	<section class="col-8 blanco fila6"></section>
+	<section class="col-1 blanco fila6"></section>
+	<section class="col-1 blanco fila6"></section>
+	<div class="row"></div>
+	<!--fila7-->
+	<section class="col-2 blanco fila7"></section>
+	<section class="col-8 blanco fila7"></section>
+	<section class="col-1 rojo"></section>
+	<section class="col-1 blanco fila7"></section>
+	<div class="row"></div>
+	<!--fila8-->
+	<section class="col-2 blanco fila8"></section>
+	<section class="col-8 blanco fila8"></section>
+	<section class="col-1 blanco fila8"></section>
+	<section class="col-1 blanco fila8"></section>
+	<div class="row"></div>
+	<!--fila9-->
+	<section class="col-2 blanco fila9"></section>
+	<section class="col-8 blanco fila9"></section>
+	<section class="col-1 blanco fila9"></section>
+	<section class="col-1 blanco fila9"></section>
+	<div class="row"></div>
+	<!--fila10-->
+	<section class="col-2 blanco fila101"></section>
+	<section class="col-8 blanco fila10"></section>
+	<section class="col-1 rojo"></section>
+	<section class="col-1 blanco fila101"></section>
+	<div class="row"></div>
+	<!--fila11-->
+	<section class="col-2 blanco fila111"></section>
+	<section class="col-8 blanco1 fila11"></section>
+	<section class="col-1 blanco fila11"></section>
+	<section class="col-1 blanco fila111"></section>
+	<div class="row"></div>
+	<!--fila12-->
+	<section class="col-2 blanco fila12"></section>
+	<section class="col-1 blanco fila12"></section>
+	<section class="col-1 azul"></section>
+	<section class="col-1 blanco"></section>
+	<section class="col-1 rojo3"></section>
+	<section class="col-1 blanco"></section>
+	<section class="col-1 amarillo2"></section>
+	<section class="col-1 blanco"></section>
+	<section class="col-1 blanco fila12"></section>
+	<section class="col-1 blanco fila12"></section>
+	<section class="col-1 blanco fila12"></section>
+	<div class="row"></div>
+</main>
+</body>
+</html>
